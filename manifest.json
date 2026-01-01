@@ -1,0 +1,55 @@
+{
+  "manifest_version": 3,
+  "name": "TIDE - Trading Insight & Discipline Engine",
+  "version": "1.0.0",
+  "description": "Ride the TIDE, stay disciplined - EMA+RSI trading guidance overlay for Groww.com",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "alarms"
+  ],
+  "host_permissions": [
+    "*://groww.in/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://groww.in/*",
+        "*://*.groww.in/*"
+      ],
+      "js": [
+        "utils/storage-manager.js",
+        "utils/ema-analyzer.js",
+        "utils/rsi-validator.js",
+        "utils/time-checker.js",
+        "utils/validation.js",
+        "utils/journal-manager.js",
+        "content.js"
+      ],
+      "css": [
+        "overlay.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'"
+  }
+}
