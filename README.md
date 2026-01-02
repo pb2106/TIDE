@@ -1,6 +1,5 @@
 # 🌊 TIDE - Trading Insight & Discipline Engine
-
-**Tagline:** "Ride the TIDE, stay disciplined"
+"Trade with TIDE, not against it"
 
 A Chrome Extension overlay for Groww.com that enforces EMA+RSI trading discipline through visual guidance, hard limits, and journaling - **WITHOUT any automated trading**.
 
