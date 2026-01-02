@@ -40,7 +40,7 @@ TIDE is your personal trading discipline coach that overlays on Groww chart page
    - Open Chrome and navigate to `chrome://extensions/`
    - Enable "Developer mode" (toggle in top-right corner)
    - Click "Load unpacked"
-   - Select the `tide-extension` folder
+   - Select the `TIDE` folder
 
 3. **Verify Installation**
    - You should see the TIDE icon (🌊) in your browser toolbar
