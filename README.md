@@ -33,7 +33,7 @@ TIDE is your personal trading discipline coach that overlays on Groww chart page
 
 1. **Download the Extension**
    ```bash
-   cd /home/naegleria/Trade\ guidance/tide-extension
+   git clone https://github.com/pb2106/TIDE
    ```
 
 2. **Load in Chrome**
