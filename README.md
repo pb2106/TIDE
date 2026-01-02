@@ -48,7 +48,7 @@ TIDE is your personal trading discipline coach that overlays on Groww chart page
 
 ### First Use
 
-1. Navigate to any Groww stock chart page (e.g., `groww.in/stocks/*/chart`)
+1. Navigate to any Groww stock chart page
 2. The TIDE overlay will appear in the top-right corner
 3. On first visit, you'll see a welcome splash screen
 4. Start by entering EMA values from the Groww chart
