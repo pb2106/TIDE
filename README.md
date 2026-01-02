@@ -107,42 +107,6 @@ Built-in journaling system:
 
 ---
 
-## 📊 How It Works
-
-### Daily Workflow
-
-**Morning Preparation (09:00 AM)**
-1. TIDE auto-resets at 09:15 AM IST
-2. Trade counter resets to 0/3
-3. Yesterday's trades archived to journal
-
-**During Trading**
-1. Identify setup on Groww chart
-2. Read EMA 10, 21, 100 from chart
-3. Enter values into TIDE → Get pattern analysis
-4. Read RSI from chart → Enter into TIDE
-5. Review validation checklist
-6. Click CONFIRM TRADE (if all rules pass)
-7. Fill trade details modal
-8. Trade logged automatically
-
-**End of Day**
-1. Review trades in journal
-2. Add outcome notes (win/loss)
-3. Write daily summary
-4. Check statistics in settings
-
-### Data Flow
-
-```
-User Input (Manual) → TIDE Analysis → Validation → Journal Storage
-     ↓                      ↓              ↓           ↓
-  EMA/RSI             Pattern Match    Rules Check   Local DB
-  from Chart          + Alignment      + Limits      (chrome.storage)
-```
-
----
-
 ## ⚙️ Settings
 
 Click the TIDE icon in the toolbar to access settings:
